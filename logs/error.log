@@ -3573,3 +3573,1083 @@ Stack Trace:
 
 2015-08-17 14:23:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2015-08-17 14:23:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-08-17 15:14:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-08-17 15:14:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies): failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 291
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 59
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:14:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 213
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:14:21 Warning: Warning (512): _cake_model_ cache was unable to write 'default_currencies' to Cake\Cache\Engine\FileEngine cache in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Cache.php, line 223]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 223
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:14:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 94
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:14:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 97
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:14:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-08-17 15:14:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies): failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 291
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 59
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:14:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 213
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:14:21 Warning: Warning (512): _cake_model_ cache was unable to write 'default_currencies' to Cake\Cache\Engine\FileEngine cache in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Cache.php, line 223]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 223
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:14:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 94
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:14:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 97
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-08-17 15:15:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies): failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 291
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 59
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 213
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:05 Warning: Warning (512): _cake_model_ cache was unable to write 'default_currencies' to Cake\Cache\Engine\FileEngine cache in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Cache.php, line 223]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 223
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 94
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 97
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-08-17 15:15:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies): failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 291
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 59
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:06 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 213
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:06 Warning: Warning (512): _cake_model_ cache was unable to write 'default_currencies' to Cake\Cache\Engine\FileEngine cache in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Cache.php, line 223]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 223
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:06 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 94
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:06 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 97
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-08-17 15:15:24 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies): failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 291
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 59
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:24 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 213
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:24 Warning: Warning (512): _cake_model_ cache was unable to write 'default_currencies' to Cake\Cache\Engine\FileEngine cache in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Cache.php, line 223]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 223
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:24 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 94
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:24 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 97
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-08-17 15:15:24 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies): failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 291
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 59
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:24 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 213
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:24 Warning: Warning (512): _cake_model_ cache was unable to write 'default_currencies' to Cake\Cache\Engine\FileEngine cache in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Cache.php, line 223]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 223
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:24 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 94
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:15:24 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 97
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-08-17 15:16:18 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies): failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 291
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 59
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:18 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 213
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:18 Warning: Warning (512): _cake_model_ cache was unable to write 'default_currencies' to Cake\Cache\Engine\FileEngine cache in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Cache.php, line 223]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 223
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:18 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 94
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:18 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 97
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-08-17 15:16:18 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies): failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 291
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 59
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:18 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 213
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:18 Warning: Warning (512): _cake_model_ cache was unable to write 'default_currencies' to Cake\Cache\Engine\FileEngine cache in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Cache.php, line 223]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 223
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:18 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 94
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:18 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 97
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-08-17 15:16:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies): failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 291
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 59
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 213
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:22 Warning: Warning (512): _cake_model_ cache was unable to write 'default_currencies' to Cake\Cache\Engine\FileEngine cache in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Cache.php, line 223]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 223
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 94
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 97
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-08-17 15:16:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies): failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 291
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 59
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/models/myapp_cake_model_default_currencies) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 213
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:22 Warning: Warning (512): _cake_model_ cache was unable to write 'default_currencies' to Cake\Cache\Engine\FileEngine cache in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Cache.php, line 223]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 223
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 68
+Cake\ORM\Table::schema() - CORE/src/ORM/Table.php, line 429
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 141
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 123
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1220
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 924
+Cake\Controller\Component\PaginatorComponent::paginate() - CORE/src/Controller/Component/PaginatorComponent.php, line 164
+Cake\Controller\Controller::paginate() - CORE/src/Controller/Controller.php, line 641
+App\Controller\CurrenciesController::index() - APP/Controller/CurrenciesController.php, line 21
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 180
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 94
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
+2015-08-17 15:16:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/mukuru/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s) [<a href='http://php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/mukuru/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 391]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 391
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 130
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 97
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 145
+__ - CORE/src/I18n/functions.php, line 33
+include - APP/Template/Currencies/index.ctp, line 2
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 833
+Cake\View\View::_render() - CORE/src/View/View.php, line 793
+Cake\View\View::render() - CORE/src/View/View.php, line 464
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 582
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+require - ROOT/webroot/index.php, line 37
+[main] - ROOT/index.php, line 16
+
+
+
