@@ -57,8 +57,9 @@ class ExchangeRatesController extends AppController {
         $response = $http->get('http://apilayer.net/api/live?access_key=0dacde5ce63add3843057033027dff9c&currencies=USD,GBP,EUR,KES,&format=1&source=ZAR');
         $dataArray = json_decode($response->body());
         if (!empty($dataArray)) {
+        $date = gmdate("Y-m-d H:i:s", $response->timestamp);    
         $ExchangeRates = $this->ExchangeRates->find()
-                ->where(['date_time' => '2015-08-17 12:46:08'])->toArray();
+                ->where(['date_time' => $date])->toArray();
             if (empty($ExchangeRates)) {
                 $results = $this->prepareExchangeRateData($dataArray);
                 $entities = $this->ExchangeRates->newEntities($results);
