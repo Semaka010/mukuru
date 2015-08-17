@@ -1,0 +1,602 @@
+2015-08-17 03:20:26 Debug: SHOW FULL COLUMNS FROM `exchange_rates`
+2015-08-17 03:20:26 Debug: SHOW INDEXES FROM `exchange_rates`
+2015-08-17 03:20:26 Debug: SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME)
+            WHERE kcu.TABLE_SCHEMA = 'mukuru' AND kcu.TABLE_NAME = 'exchange_rates' and rc.TABLE_NAME = 'exchange_rates'
+2015-08-17 03:20:26 Debug: SHOW TABLE STATUS WHERE Name = 'exchange_rates'
+2015-08-17 03:20:26 Debug: SHOW FULL COLUMNS FROM `currencies`
+2015-08-17 03:20:26 Debug: SHOW INDEXES FROM `currencies`
+2015-08-17 03:20:26 Debug: SELECT * FROM information_schema.key_column_usage AS kcu
+            INNER JOIN information_schema.referential_constraints AS rc
+            ON (kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME)
+            WHERE kcu.TABLE_SCHEMA = 'mukuru' AND kcu.TABLE_NAME = 'currencies' and rc.TABLE_NAME = 'currencies'
+2015-08-17 03:20:26 Debug: SHOW TABLE STATUS WHERE Name = 'currencies'
+2015-08-17 03:20:26 Debug: SELECT ExchangeRates.id AS `ExchangeRates__id`, ExchangeRates.currency_id AS `ExchangeRates__currency_id`, ExchangeRates.date_time AS `ExchangeRates__date_time`, ExchangeRates.rate AS `ExchangeRates__rate`, ExchangeRates.created AS `ExchangeRates__created`, ExchangeRates.modified AS `ExchangeRates__modified`, Currencies.id AS `Currencies__id`, Currencies.name AS `Currencies__name`, Currencies.description AS `Currencies__description`, Currencies.surcharge AS `Currencies__surcharge`, Currencies.discount AS `Currencies__discount`, Currencies.created AS `Currencies__created`, Currencies.modified AS `Currencies__modified` FROM exchange_rates ExchangeRates LEFT JOIN currencies Currencies ON Currencies.id = (ExchangeRates.currency_id) LIMIT 20 OFFSET 0
+2015-08-17 03:20:26 Debug: SELECT (COUNT(*)) AS `count` FROM exchange_rates ExchangeRates LEFT JOIN currencies Currencies ON Currencies.id = (ExchangeRates.currency_id)
+2015-08-17 03:52:17 Notice: Notice (8): Trying to get property of non-object in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 58]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::add() - APP/Controller/ExchangeRatesController.php, line 58
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 04:04:01 Notice: Notice (8): Undefined variable: id in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 59
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 04:04:03 Notice: Notice (8): Undefined variable: id in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 59
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 04:04:05 Notice: Notice (8): Undefined variable: id in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 59]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 59
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 04:13:27 Notice: Notice (8): Undefined variable: response in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 58]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 58
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 04:54:47 Notice: Notice (8): Undefined variable: nam in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 67]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 67
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 04:54:49 Notice: Notice (8): Undefined variable: nam in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 67]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 67
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 04:55:16 Notice: Notice (8): Undefined property: stdClass::$ZARGPB in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 66]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 66
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 10:57:14 Notice: Notice (8): Undefined variable: exchangeRate in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 63]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 63
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 10:57:14 Notice: Notice (8): Undefined variable: exchangeRate in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 63]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 63
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 11:14:16 Notice: Notice (8): Undefined variable: oQuery in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 61
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 11:14:17 Notice: Notice (8): Undefined variable: oQuery in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 61]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 61
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 11:14:32 Notice: Notice (8): Undefined variable: oQuery in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 60]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 60
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 11:14:33 Notice: Notice (8): Undefined variable: oQuery in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 60]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 60
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 11:15:31 Notice: Notice (8): Undefined variable: oQuery in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 60]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 60
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 11:15:32 Notice: Notice (8): Undefined variable: oQuery in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 60]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 60
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 11:16:36 Notice: Notice (8): Undefined variable: _SESSION in [/var/www/mukuru/vendor/cakephp/cakephp/src/Network/Session.php, line 440]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Network\Session::write() - CORE/src/Network/Session.php, line 440
+Cake\Controller\Component\FlashComponent::set() - CORE/src/Controller/Component/FlashComponent.php, line 99
+Cake\Controller\Component\FlashComponent::__call() - CORE/src/Controller/Component/FlashComponent.php, line 139
+Cake\Controller\Component\FlashComponent::error() - APP/Controller/ExchangeRatesController.php, line 74
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 74
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 11:16:36 Notice: Notice (8): Undefined variable: _SESSION in [/var/www/mukuru/vendor/cakephp/cakephp/src/Network/Session.php, line 440]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Network\Session::write() - CORE/src/Network/Session.php, line 440
+Cake\Controller\Component\FlashComponent::set() - CORE/src/Controller/Component/FlashComponent.php, line 99
+Cake\Controller\Component\FlashComponent::__call() - CORE/src/Controller/Component/FlashComponent.php, line 139
+Cake\Controller\Component\FlashComponent::error() - APP/Controller/ExchangeRatesController.php, line 74
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 74
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 11:29:13 Notice: Notice (8): Undefined variable: save in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 72]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 72
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 11:29:14 Notice: Notice (8): Undefined variable: save in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 72]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 72
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 11:44:16 Notice: Notice (8): Undefined variable: articlesTable in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 73]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 73
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 11:44:17 Notice: Notice (8): Undefined variable: articlesTable in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 73]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 73
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): A non well formed numeric value encountered in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+date - [internal], line ??
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:13:16 Notice: Notice (8): Undefined variable: _SESSION in [/var/www/mukuru/vendor/cakephp/cakephp/src/Network/Session.php, line 440]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Network\Session::write() - CORE/src/Network/Session.php, line 440
+Cake\Controller\Component\FlashComponent::set() - CORE/src/Controller/Component/FlashComponent.php, line 99
+Cake\Controller\Component\FlashComponent::__call() - CORE/src/Controller/Component/FlashComponent.php, line 139
+Cake\Controller\Component\FlashComponent::success() - APP/Controller/ExchangeRatesController.php, line 72
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 72
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 12:31:12 Notice: Notice (8): Undefined variable: query in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 65
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 13:03:05 Notice: Notice (8): Trying to get property of non-object in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 63]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 63
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-08-17 13:03:13 Notice: Notice (8): Trying to get property of non-object in [/var/www/mukuru/src/Controller/ExchangeRatesController.php, line 63]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\ExchangeRatesController::apiadd() - APP/Controller/ExchangeRatesController.php, line 63
+App\Controller\AppController::invokeAction() - ROOT/vendor/friendsofcake/crud/src/Controller/ControllerTrait.php, line 51
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
